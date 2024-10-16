@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Moje hobby - szachy</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="./../css/style.css" rel="stylesheet">
   </head>
   <body>
     <header>
       <a href="./index.html">Strona główna</a>
-      <p id="header-text">To jest strona o szachach</p>
+      <p id="header-text">Podziel się swoją opinią o stronie</p>
     </header>
     <div class="wrapper">
       <nav>
         <a href="./html/historia.html">Historia szachów</a>
         <a href="./html/mistrzowie.html">Mistrzowie świata</a>
         <a href="./html/ulubiona_partia.html">Moja ulubiona partia</a>
-        <a href="./html/opinia.html">Podziel się opinią o stronie</a>
+        <a href="./../html/opinia.html">Podziel się opinią o stronie</a>
         <div class="dropdown">
           <div class="dropdown-title">Aktualności</div>
           <div class="dropdown-content">
@@ -27,8 +27,12 @@
         </div>
       </nav>
       <section>
-        <article>
-        </article>
+        <form action="opinia.php" method="post">
+          <label for=""></label>
+          <textarea rows="" cols=""></textarea>
+
+          <input type="submit" value="Wyślij">
+        </form>
       </section>
     </div>
     <footer>

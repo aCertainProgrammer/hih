@@ -1,5 +1,5 @@
 html {
-  width: 100vh;
+  width: 100vw;
   height: 100vh;
 }
 body {
@@ -13,21 +13,29 @@ body {
   margin: 0px;
 }
 header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
   background-color: grey;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
 }
 nav {
+  padding: 5px 10px;
   background-color: #aaaaff;
-  width:30%;
+  width:auto;
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 2px;
+  gap: 5px;
 }
 section {
   background-color: orange;
-  width:40%;
+  flex: 1 1 auto;
 }
 aside {
   background-color: green;
@@ -39,10 +47,58 @@ footer {
 }
 
 .wrapper {
-  width: 100%;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    background-color: black;
+    flex: 1 1 auto;
+  }
+
+
+@media (width > 500px) { 
+  .wrapper {
+      flex-direction: row;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .dropdown > .dropdown-content {
+    display: none;
+  }
+  
+  .dropdown:hover > .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+}
+
+@media (width <= 500px) { 
+  .wrapper {
+    flex-direction: column;
+  }
+  
+  nav {
+    flex-direction: row;
+  }
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+.dropdown {
   display: flex;
-  flex-direction: row;
-  gap: 5px;
-  background-color: black;
-  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#header-text {
+  margin: 0 auto;
 }
