@@ -1,38 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Moje hobby - szachy</title>
-    <link href="./../css/style.css" rel="stylesheet">
+    <link href="./../css/style.css" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <a href="./index.html">Strona główna</a>
-      <p id="header-text">Podziel się swoją opinią o stronie</p>
+      <a href="./../index.html">Strona główna</a>
+      <p id="header-text">To jest strona o szachach</p>
     </header>
     <div class="wrapper">
       <nav>
-        <a href="./html/historia.html">Historia szachów</a>
-        <a href="./html/mistrzowie.html">Mistrzowie świata</a>
-        <a href="./html/ulubiona_partia.html">Moja ulubiona partia</a>
-        <a href="./../html/opinia.html">Podziel się opinią o stronie</a>
+        <a href="./historia.html">Historia szachów</a>
+        <a href="./opinia.html">Podziel się opinią o stronie</a>
         <div class="dropdown">
           <div class="dropdown-title">Aktualności</div>
           <div class="dropdown-content">
-            <a href="">Wyniki olimpiady</a>
-            <a href="">Mecz o mistrzostwo świata</a>
-            <a href="">Osiągnięcia Gukesha</a>
+            <a href="./wyniki.html">Wyniki olimpiady</a>
+            <a href="./mecz.html">Mecz o mistrzostwo świata</a>
           </div>
         </div>
       </nav>
       <section>
-        <form action="opinia.php" method="post">
-          <label for=""></label>
-          <textarea rows="" cols=""></textarea>
+        <svg
+          version="1.1"
+          width="300"
+          height="200"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect width="100%" height="100%" fill="gray" />
 
-          <input type="submit" value="Wyślij">
-        </form>
+          <circle cx="150" cy="100" r="80" fill="lightgray" />
+
+          <text
+            x="150"
+            y="125"
+            font-size="50"
+            text-anchor="middle"
+            fill="black"
+          >
+            10/10
+          </text>
+        </svg>
+
+        <article></article>
       </section>
     </div>
     <footer>

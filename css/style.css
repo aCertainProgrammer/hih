@@ -27,7 +27,7 @@ header {
 nav {
   padding: 5px 10px;
   background-color: #aaaaff;
-  width:auto;
+  width: auto;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -39,7 +39,7 @@ section {
 }
 aside {
   background-color: green;
-  width:30%;
+  width: 30%;
 }
 footer {
   background-color: yellow;
@@ -47,17 +47,16 @@ footer {
 }
 
 .wrapper {
-    width: 100%;
-    display: flex;
-    gap: 5px;
-    background-color: black;
-    flex: 1 1 auto;
-  }
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  background-color: black;
+  flex: 1 1 auto;
+}
 
-
-@media (width > 500px) { 
+@media (width > 500px) {
   .wrapper {
-      flex-direction: row;
+    flex-direction: row;
   }
   nav {
     flex-direction: column;
@@ -65,20 +64,19 @@ footer {
   .dropdown > .dropdown-content {
     display: none;
   }
-  
+
   .dropdown:hover > .dropdown-content {
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-
 }
 
-@media (width <= 500px) { 
+@media (width <= 500px) {
   .wrapper {
     flex-direction: column;
   }
-  
+
   nav {
     flex-direction: row;
   }
@@ -101,4 +99,11 @@ a {
 
 #header-text {
   margin: 0 auto;
+}
+
+table,
+th,
+td,
+tr {
+  border: 1px solid;
 }

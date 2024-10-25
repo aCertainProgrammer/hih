@@ -1,0 +1,21 @@
+HTML: (11 pkt)
+ walidacja HTML (1pkt) (https://validator.w3.org/)
+ walidacja css (0,5pkt) (http://jigsaw.w3.org/css-validator/)
+ umieszczenie na stronie multimediów:
+o grafika
+ galeria zdjęć (grafika rastrowa) (przynajmniej 5) ma być zorganizowana w postaci
+miniaturek, które można obejrzeć powiększone (0,6pkt)
+ animacje wykorzystujące mechanizm klatek kluczowych CSS3 (@keyframes) oraz
+efekt przejścia (transition) (0,6pkt)
+ umieszczenie na stronie:
+o odsyłaczy do innych stron internetowych (0,3pkt)
+o wykorzystanie min 2 pseudoklas (0,2pkt)
+o wykorzystanie pseudoelementu (0,1pkt)
+ stworzenie prostej ankiety-formularza (0,8pkt)
+o przynajmniej 7 pól do wprowadzania danych ( w tym lista rozwijana oraz radio button)
+o przynajmniej 5 różnych rodzajów pól umożliwiających wprowadzanie danych (w tym lista
+rozwijana oraz radio button),
+o wykorzystanie znacznika <label>
+o przyciski do czyszczenia zawartości formularza oraz wysyłania danych (w atrybucie action
+formularza nie używać mailto)
+ dbałość o estetyczny wygląd strony
