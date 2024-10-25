@@ -24,6 +24,7 @@
         </div>
       </nav>
       <section>
+        <h2>Podziel się swoją opinią</h2>
         <svg
           version="1.1"
           width="300"
@@ -45,7 +46,51 @@
           </text>
         </svg>
 
-        <article></article>
+        <article>
+          <form action="./opinia.php">
+            <label for="uczucie">Jak się czułeś używając strony?</label>
+            <input type="text" name="uczucie" value="" />
+            <fieldset>
+              <legend>Na ile oceniasz stronę?</legend>
+              <label for="ocena-3">3</label>
+              <input id="ocena-3" type="radio" name="ocena" value="3" />
+              <label for="ocena-2">2</label>
+              <input id="ocena-2" type="radio" name="ocena" value="2" />
+              <label for="ocena-1">1</label>
+              <input id="ocena-1" type="radio" name="ocena" value="1" />
+            </fieldset>
+            <label for="preferencje">Czy lubisz szachy?</label>
+            <select name="preferencje">
+              <option value="tak">Tak</option>
+              <option value="nie">Nie</option>
+              <option value="nie-wiem">Nie wiem</option>
+            </select>
+            <label for="email">Jaki masz email?</label>
+            <input
+              type="email"
+              name="email"
+              value=""
+              placeholder="email@email.com"
+            />
+            <label for="imie">Jak masz na imię?</label>
+            <input type="text" name="imie" value="" placeholder="twoje imię" />
+            <label for="nazwisko">Jak masz na nazwisko?</label>
+            <input
+              type="text"
+              name="nazwisko"
+              value=""
+              placeholder="twoje nazwisko"
+            />
+            <div>
+              <input type="checkbox" name="zgoda" value="" />
+              <label for="zgoda">Zgadzam się na wszystko</label>
+            </div>
+            <div>
+              <input type="submit" name="submit" value="Prześlij opinię" />
+              <input type="reset" name="reset" value="Reset" />
+            </div>
+          </form>
+        </article>
       </section>
     </div>
     <footer>

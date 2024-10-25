@@ -11,11 +11,3 @@ efekt przejścia (transition) (0,6pkt)
 o odsyłaczy do innych stron internetowych (0,3pkt)
 o wykorzystanie min 2 pseudoklas (0,2pkt)
 o wykorzystanie pseudoelementu (0,1pkt)
- stworzenie prostej ankiety-formularza (0,8pkt)
-o przynajmniej 7 pól do wprowadzania danych ( w tym lista rozwijana oraz radio button)
-o przynajmniej 5 różnych rodzajów pól umożliwiających wprowadzanie danych (w tym lista
-rozwijana oraz radio button),
-o wykorzystanie znacznika <label>
-o przyciski do czyszczenia zawartości formularza oraz wysyłania danych (w atrybucie action
-formularza nie używać mailto)
- dbałość o estetyczny wygląd strony
